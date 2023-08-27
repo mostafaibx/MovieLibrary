@@ -1,0 +1,36 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: 700;
+  padding: 0px;
+}
+
+.filter li {
+  margin-left: 3rem;
+  color: var(--font-color);
+}
+
+.filter li:hover {
+  content: "";
+  color: var(--font-hover-color);
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .filter ul {
+    font-size: medium;
+  }
+
+  .filter li {
+    margin-left: 1rem;
+  }
+}

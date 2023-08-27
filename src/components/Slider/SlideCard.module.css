@@ -1,0 +1,47 @@
+.card {
+  margin: 5rem 0 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  align-items: center;
+}
+
+.text h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: var(--font-color);
+}
+.text p {
+  font-size: x-large;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: var(--font-color);
+}
+
+.image {
+  padding: 0 0 0 5rem;
+  width: 60%;
+  display: flex;
+  overflow: hidden;
+}
+.image img {
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .text h1 {
+    font-size: 32px;
+  }
+  .text p {
+    font-size: medium;
+  }
+
+  .image {
+    padding: 0 0 0 2rem;
+    width: 100%;
+  }
+  .image img {
+    width: 100%;
+  }
+}
