@@ -1,0 +1,38 @@
+.lists h2 {
+  margin: 1rem 0.5rem;
+  color: var(--font-color);
+}
+
+.lists ul {
+  list-style: none;
+  font-size: larger;
+  padding: 0px;
+}
+
+.lists li {
+  background-color: var(--button-color);
+  color: var(--font-color);
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem;
+  max-width: 100%;
+  width: calc(100% - 1rem);
+  box-sizing: border-box;
+  font-weight: 700;
+  text-align: center;
+}
+
+.lists li:hover {
+  background-color: var(--button-hover-color);
+  color: var(--font-hover-color);
+  cursor: pointer;
+}
+
+.lists button {
+  cursor: pointer;
+  background-color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}

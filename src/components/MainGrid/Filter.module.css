@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter ul {
+  list-style: none;
+  display: flex;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.filter li {
+  margin-left: 3rem;
+  color: var(--font-color);
+}
+
+.filter li:hover {
+  content: "";
+  color: var(--font-hover-color);
+  text-decoration: underline;
+}

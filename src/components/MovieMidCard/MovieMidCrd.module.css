@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  position: relative;
+  color: var(--font-color);
+}
+
+.image {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  padding: 1rem;
+  font-size: larger;
+}
+
+.close {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--button-color);
+  color: var(--font-color);
+}
+.close:hover {
+  background-color: var(--button-hover-color);
+  color: var(--font-hover-color);
+}
