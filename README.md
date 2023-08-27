@@ -32,7 +32,7 @@ The key features of this web application include:
 
 ## Live Preview
 
-You can experience this project live by visiting [movie-library.netlify.app](https://movie-library.netlify.app).
+You can experience this project live by visiting [movie-llibrary.netlify.app](https://movie-llibrary.netlify.app).
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
